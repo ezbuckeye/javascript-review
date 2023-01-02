@@ -52,6 +52,8 @@ console.log(typeof year);
 console.log(typeof null);
 */
 
+/*
+Basic Operators
 let age = 30;
 age = 31;
 
@@ -65,3 +67,53 @@ console.log(job);
 
 lastName = "Schmedtmann";
 console.log(lastName);
+*/
+
+/*
+Operators
+// Math operators
+const now = 2037;
+const ageEdison = now - 1999;
+const ageMom = now - 1975;
+const ageDad = now - 1971;
+console.log(ageEdison, ageMom, ageDad);
+
+console.log(ageEdison * 2, ageEdison / 10, 2 ** 3); // 2**3: 2 to the power of 3
+
+const firstName = "Edison";
+const lastName = "Zhang";
+console.log(firstName + " " + lastName);
+
+let x = 10 + 5; // 15
+x += 10; // x = x + 10 => 25
+x *= 4; // x = x * 4 => 100
+x++;
+x--;
+x--;
+console.log(x);
+
+// Comparison operators
+console.log(ageMom > ageDad); // >, <. >=, <=
+console.log(ageEdison >= 18);
+
+const isFullAge = ageEdison >= 18;
+
+console.log(now - 1999 > now - 2001);
+*/
+
+const now = 2037;
+const ageEdison = now - 1999;
+const ageMom = now - 1975;
+const ageDad = now - 1971;
+
+console.log(now - 1999 > now - 2001);
+
+console.log(2 ** (25 - 10 - 5));
+
+let x, y;
+x = y = 25 - 10 - 5; // x = y = 10
+console.log(x, y);
+console.log(2 ** (2 ** 3)); // 256
+
+const averageAge = (ageMom + ageDad) / 2;
+console.log(ageMom, ageDad, averageAge);
