@@ -29,8 +29,9 @@ This repo contains my study notes and learning projects contained in the course 
     - `2**3`: 2 to the power of 3
     - `+` could be used to concatenate strings
   - Comparison Operators
-  - `typeof` operator  
-    `console.log(typeof true);` => boolean
+  - Other Operators
+    - `typeof` operator  
+      `console.log(typeof true);` => boolean
 - Associativity of operators
   - assignment operator: right-to-left  
     `x = y = 3;`
@@ -46,3 +47,12 @@ This repo contains my study notes and learning projects contained in the course 
     `Hello
     World`
     ```
+- if/else Statements
+
+  ```
+  if(){
+
+  }else{
+
+  }
+  ```

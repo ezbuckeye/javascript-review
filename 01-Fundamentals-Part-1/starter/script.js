@@ -124,6 +124,9 @@ const averageAge = (ageMom + ageDad) / 2;
 console.log(ageMom, ageDad, averageAge);
 */
 
+/************************
+Template Literals
+
 const firstName = "Edison";
 const job = "student";
 const birthYear = 1999;
@@ -147,3 +150,26 @@ lines"
 console.log(`String
 multiple
 lines`);
+*/
+
+/*
+IF/Else Statements
+
+const age = 15;
+
+if (age >= 18) {
+  console.log("Sarah can start driving license 🚗");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+}
+
+const birthYear = 1999;
+let century;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
+*/
