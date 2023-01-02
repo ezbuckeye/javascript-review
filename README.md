@@ -37,9 +37,12 @@ This repo contains my study notes and learning projects contained in the course 
   - exponentiation: right-to-left  
     `x = 2**2**3;`
 - Strings and Template literals(ES6)
-  1. ``I'm ${firstName},  a ${year-birthYear} year old ${job}!`;`
-  2. use template literals to create multiple line string
-  ```
-  `Hello
-  World`
-  ```
+  - use template literals to add variable into the string
+    ```
+    `I'm ${firstName},  a ${year-birthYear} year old ${job}!`;
+    ```
+  - use template literals to create multiple line string
+    ```
+    `Hello
+    World`
+    ```
