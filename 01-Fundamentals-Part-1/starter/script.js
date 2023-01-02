@@ -1,4 +1,5 @@
 /*
+Values and Variables
 let js = "amazing";
 console.log(40 + 8 + 23 - 10);
 
@@ -27,6 +28,9 @@ let job2 = "teacher";
 console.log(myFirstJob);
 */
 
+/*
+Data Types
+
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
 
@@ -46,3 +50,18 @@ year = 1991;
 console.log(typeof year);
 
 console.log(typeof null);
+*/
+
+let age = 30;
+age = 31;
+
+const birthYear = 1991;
+// birthYear = 1990;
+// const job;
+
+var job = "programmer";
+job = "teacher";
+console.log(job);
+
+lastName = "Schmedtmann";
+console.log(lastName);
