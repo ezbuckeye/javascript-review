@@ -123,3 +123,27 @@ console.log(2 ** (2 ** 3)); // 256
 const averageAge = (ageMom + ageDad) / 2;
 console.log(ageMom, ageDad, averageAge);
 */
+
+const firstName = "Edison";
+const job = "student";
+const birthYear = 1999;
+const year = 2037;
+
+const edison =
+  "I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + "!";
+console.log(edison);
+
+const edisonNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(edisonNew);
+
+console.log(`Just a regular string...`);
+
+console.log(
+  "String with \n\
+multiple \n\
+lines"
+);
+
+console.log(`String
+multiple
+lines`);
