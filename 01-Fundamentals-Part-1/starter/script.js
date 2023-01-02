@@ -1,4 +1,4 @@
-/*
+/************************
 Values and Variables
 let js = "amazing";
 console.log(40 + 8 + 23 - 10);
@@ -28,7 +28,7 @@ let job2 = "teacher";
 console.log(myFirstJob);
 */
 
-/*
+/************************
 Data Types
 
 let javascriptIsFun = true;
@@ -52,8 +52,9 @@ console.log(typeof year);
 console.log(typeof null);
 */
 
-/*
+/************************
 Basic Operators
+
 let age = 30;
 age = 31;
 
@@ -69,8 +70,9 @@ lastName = "Schmedtmann";
 console.log(lastName);
 */
 
-/*
+/************************
 Operators
+
 // Math operators
 const now = 2037;
 const ageEdison = now - 1999;
@@ -101,6 +103,9 @@ const isFullAge = ageEdison >= 18;
 console.log(now - 1999 > now - 2001);
 */
 
+/************************
+Operator Precedence
+
 const now = 2037;
 const ageEdison = now - 1999;
 const ageMom = now - 1975;
@@ -117,3 +122,4 @@ console.log(2 ** (2 ** 3)); // 256
 
 const averageAge = (ageMom + ageDad) / 2;
 console.log(ageMom, ageDad, averageAge);
+*/

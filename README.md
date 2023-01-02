@@ -34,5 +34,5 @@ This repo contains my study notes and learning projects contained in the course 
 - Associativity of operators
   - assignment operator: right-to-left  
     `x = y = 3;`
-  - exponentiation: right-to-left
+  - exponentiation: right-to-left  
     `x = 2**2**3;`
