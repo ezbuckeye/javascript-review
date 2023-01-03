@@ -58,7 +58,6 @@ This repo contains my study notes and learning projects contained in the course 
   ```
 
 - Type Conversion and Coercion
-
   - type conversion
     - convert string to number  
       `Number('1999')`
@@ -70,7 +69,6 @@ This repo contains my study notes and learning projects contained in the course 
       `console.log("I am " + 23 + " year old");`
     - string to number  
       `console.log("23" - "10" * 3); // -7 (number)`
-
 - Truthy and Falsy Values  
   5 FALSY VALUE
   - 0
@@ -78,3 +76,4 @@ This repo contains my study notes and learning projects contained in the course 
   - ''
   - undefined
   - null
+- Equality Operators
