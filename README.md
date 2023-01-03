@@ -52,6 +52,8 @@ This repo contains my study notes and learning projects contained in the course 
   ```
   if(){
 
+  }else if{
+
   }else{
 
   }
@@ -77,3 +79,12 @@ This repo contains my study notes and learning projects contained in the course 
   - undefined
   - null
 - Equality Operators
+  - equality operator
+    - strict equality operator (doesn't do type coercion)  
+      `console.log(18 === '18'); // false`
+    - loose equality operator (does type coercion)  
+      `console.log(18 == '18'); // true`
+  - unequality operator
+    - `console.log(23 !== '23'); // true (strict)`
+    - `console.log(23 != '23'); // false (loose)`
+  - use `===` as much as possible, since the other might introduce some weird bugs
