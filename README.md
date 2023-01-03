@@ -56,3 +56,16 @@ This repo contains my study notes and learning projects contained in the course 
 
   }
   ```
+
+- Type Conversion and Coercion
+  - type conversion
+    - convert string to number  
+      `Number('1999')`
+      - if the parameter is invalid, e.g., 'Edison', the return value would be NaN (typeof => number)
+    - convert number to string  
+      `String(23)`
+  - type coercion
+    - number to string  
+      `console.log("I am " + 23 + " year old");`
+    - string to number  
+      `console.log("23" - "10" * 3);` // -7 (number)
