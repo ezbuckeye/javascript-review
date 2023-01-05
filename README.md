@@ -118,37 +118,48 @@ This repo contains my study notes and learning projects contained in the course 
   - produce a value(expression)  
     const drink = age >= 18 ? "wine" : "water";
 - Activating Strict Mode  
-  `use strict; // first line of the file`
+   `use strict; // first line of the file`
 
   - forbid us to do certain things
   - provide error messages
 
-    ```
-    //e.g.
-    let hasDriversLicense = false;
-    if (passTest) hasDriversLicense = true;
-    if (hasDriversLicense) console.log("I can drive :D");
+        ```
+        //e.g.
+        let hasDriversLicense = false;
+        if (passTest) hasDriversLicense = true;
+        if (hasDriversLicense) console.log("I can drive :D");
 
-    const interface = "Audio";
-    const private = 534;
-    ```
+        const interface = "Audio";
+        const private = 534;
+        ```
 
-- Functions
+    -Function
 
-  - (used as statements)
+  - Function Declarations
+
+    - basics
+      ```
+      function logger() {
+        console.log("My name is Jonas");
+      }
+      logger();
+      ```
+    - with parameters and return value
+
+      ```
+      function fruitProcessor(apples, oranges) {
+        const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+        return juice;
+      }
+
+      const appleJuice = fruitProcessor(5, 0);
+      ```
+
+  - Function Expressions
     ```
-    function logger() {
+    const logger = function() {
       console.log("My name is Jonas");
     }
     logger();
     ```
-  - (used as expressions)
-
-    ```
-    function fruitProcessor(apples, oranges) {
-      const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
-      return juice;
-    }
-
-    const appleJuice = fruitProcessor(5, 0);
-    ```
+    - we could call function declarations before its definition but not function expressions

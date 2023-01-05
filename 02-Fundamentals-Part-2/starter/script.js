@@ -11,6 +11,9 @@ const interface = "Audio";
 const private = 534;
 */
 
+/*********
+ Functions
+ 
 function logger() {
   console.log("My name is Jonas");
 }
@@ -26,3 +29,22 @@ console.log(fruitProcessor(5, 0));
 
 const appleOrangeJuice = fruitProcessor(2, 4);
 console.log(appleOrangeJuice);
+
+const num = Number("23");
+*/
+
+// Function Declaration
+const age1 = calcAge1(1991);
+function calcAge1(birthYear) {
+  return 2037 - birthYear;
+}
+
+console.log(age1);
+
+// Functino Expression
+// const age2 = calcAge2(1991); // cannot be run
+const calcAge2 = function (birthYear) {
+  return 2037 - birthYear;
+};
+const age2 = calcAge2(1991);
+console.log(age2);
