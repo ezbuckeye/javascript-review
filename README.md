@@ -118,7 +118,7 @@ This repo contains my study notes and learning projects contained in the course 
   - produce a value(expression)  
     const drink = age >= 18 ? "wine" : "water";
 - Activating Strict Mode  
-  `use strict; // first line of the file
+  `use strict; // first line of the file`
 
   - forbid us to do certain things
   - provide error messages
