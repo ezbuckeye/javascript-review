@@ -151,6 +151,9 @@ const ages = [calcAge(y[0]), calcAge(y[1]), calcAge(y[y.length - 1])];
 console.log(ages);
 */
 
+/*********
+Array Operations
+
 const friends = ["Michael", "Steven", "Peter"];
 const newLength = friends.push("Jay");
 console.log(friends);
@@ -178,3 +181,19 @@ console.log(friends.includes("23"));
 if (friends.includes("Steven")) {
   console.log("You have a friend called Steven");
 }
+*/
+
+const jonasArray = [
+  "Jonas",
+  "Schmedtmann",
+  2037 - 1991,
+  ["Michael", "Peter", "Steven"],
+];
+
+const edison = {
+  firstName: "Edison",
+  lastName: "Zhang",
+  age: 2037 - 1999,
+  job: "Architect",
+  friends: ["Michael", "Peter", "Steven"],
+};

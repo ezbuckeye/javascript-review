@@ -229,3 +229,15 @@ This repo contains my study notes and learning projects contained in the course 
     - **includes** (strict equality check)
       1. if exists => return true
       2. otherwise => false
+
+- Obejcts
+  - basic syntax
+    ```
+    const edison = {
+      firstName: "Edison",  // properties
+      lastName: "Zhang",
+      age: 2037 - 1999,
+      job: "Architect",
+      friends: ["Michael", "Peter", "Steven"],
+    };
+    ```
