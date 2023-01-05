@@ -241,3 +241,16 @@ This repo contains my study notes and learning projects contained in the course 
       friends: ["Michael", "Peter", "Steven"],
     };
     ```
+  - retrieve properties
+    - dot  
+      `console.log(edison.lastName);`
+    - bracket
+      ```
+      const nameKey = "Name"
+      console.log(edison['last' + nameKey]);
+      ```
+  - add properties (could use either dot/bracket)
+    ```
+    edison.location = "Columbus";
+    edison["hometown"] = "Wenzhou";
+    ```

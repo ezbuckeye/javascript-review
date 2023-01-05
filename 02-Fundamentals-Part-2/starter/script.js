@@ -197,3 +197,33 @@ const edison = {
   job: "Architect",
   friends: ["Michael", "Peter", "Steven"],
 };
+
+console.log(edison);
+
+// dot vs. bracket notation
+console.log(edison.lastName);
+console.log(edison["lastName"]);
+
+const nameKey = "Name";
+console.log(edison["first" + nameKey]);
+console.log(edison["last" + nameKey]);
+
+const interestedIn = prompt(
+  "What do you want to know about edison? Choose between firstName, lastName, age, job, and friends"
+);
+
+if (edison[interestedIn]) {
+  console.log(edison[interestedIn]);
+} else {
+  console.log("Wrong request!");
+}
+
+edison.location = "Columbus";
+edison["hometown"] = "Wenzhou";
+console.log(edison);
+
+// Challenge
+// "Edison has 3 friends, and his best friend is called Michael"
+console.log(
+  `${edison.firstName} has ${edison.friends.length} friends, and his best friend is called ${edison.friends[0]}`
+);
