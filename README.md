@@ -180,3 +180,15 @@ This repo contains my study notes and learning projects contained in the course 
       ```
 
     - don't have a `this` keyword
+
+- Arrays
+  - Syntax
+    - literal syntax  
+      `const friends = ["Michael", "Steven", "Peter"]; // literal syntax`
+    - new keyword  
+      `const years = new Array(1991, 1984, 2008, 2020);`
+    - examples
+      - `console.log(friends[0]); // index && 0-based`
+      - `console.log(friends.length); // length property`
+      - `friends[2] = "Jay"; // array is mutatable`
+      - `const edison = [firstName, "zhang", 2037 - 1999, friends]; // could contain expressions of different types`
