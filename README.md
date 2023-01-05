@@ -133,7 +133,7 @@ This repo contains my study notes and learning projects contained in the course 
         const private = 534;
         ```
 
-    -Function
+- Functions
 
   - Function Declarations
 
