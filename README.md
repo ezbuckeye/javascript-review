@@ -163,3 +163,20 @@ This repo contains my study notes and learning projects contained in the course 
     logger();
     ```
     - we could call function declarations before its definition but not function expressions
+  - Arrow Functions(ES6)
+
+    - one-liner  
+      `const calcAge3 = (birthYear) => 2037 - birthYear;`
+    - multiple lines(needs to write `return` explicitly)
+
+      ```
+      const yearsUntilRetirement = (birthYear, firstName) => {
+        const age = 2037 - birthYear;
+        const retirement = 65 - age;
+        return `${firstName} retires in ${retirement} years`;
+      };
+
+      console.log(yearsUntilRetirement(1991, 'Jonas'));
+      ```
+
+    - don't have a `this` keyword
