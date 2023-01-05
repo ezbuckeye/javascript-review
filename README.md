@@ -92,3 +92,23 @@ This repo contains my study notes and learning projects contained in the course 
   - `&&`
   - `||`
   - `!`
+- Switch Statement
+  ```
+  switch(day){
+    case 'monday':
+    case 'tuesday':
+    case 'thursday':
+    case 'friday':
+      console.log("study");
+      console.log("work out");
+    case 'wednesday':
+      console.log("study");
+    case 'saturday':
+    case 'sunday':
+      console.log("play basketball");
+      console.log("swim");
+      console.log("hangout");
+    default:
+      console.log("not a valid day");
+  }
+  ```
