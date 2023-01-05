@@ -112,3 +112,8 @@ This repo contains my study notes and learning projects contained in the course 
       console.log("not a valid day");
   }
   ```
+- The Conditional(Ternary) Operator
+  - perform as action(statement)  
+     `age >= 18 ? console.log("I like to drink wine ") : console.log("I like to drink water");`
+  - produce a value(expression)  
+    const drink = age >= 18 ? "wine" : "water";
