@@ -117,3 +117,18 @@ This repo contains my study notes and learning projects contained in the course 
      `age >= 18 ? console.log("I like to drink wine ") : console.log("I like to drink water");`
   - produce a value(expression)  
     const drink = age >= 18 ? "wine" : "water";
+- Activating Strict Mode  
+  `use strict; // first line of the file
+
+  - forbid us to do certain things
+  - provide error messages
+
+    ```
+    //e.g.
+    let hasDriversLicense = false;
+    if (passTest) hasDriversLicense = true;
+    if (hasDriversLicense) console.log("I can drive :D");
+
+    const interface = "Audio";
+    const private = 534;
+    ```
