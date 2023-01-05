@@ -174,7 +174,8 @@ if (birthYear <= 2000) {
 console.log(century);
 */
 
-/* tYPE Conversion and coercion
+/************************
+Type Conversion and coercion
 // type conversion
 const inputYear = "1999";
 console.log(Number(inputYear), inputYear);
@@ -194,7 +195,7 @@ n = n - 1;
 console.log(n);
 */
 
-/*
+/************************
 Truthy and Falsy Values
 
 console.log(Boolean(0));
@@ -218,6 +219,9 @@ if (height) {
 }
 */
 
+/************************
+Equality Operators
+
 const age = "18";
 if (age === 18) console.log("You just became an adult(strict)");
 
@@ -239,3 +243,29 @@ if (favourite === 23) {
 }
 
 if (favourite !== 23) console.log("Why not 23?");
+*/
+
+const hasDriversLiscense = true; // A
+const hasGoodVision = true; // B
+
+console.log(hasDriversLiscense && hasGoodVision);
+
+console.log(hasDriversLiscense || hasGoodVision);
+
+console.log(!hasDriversLiscense);
+
+// if (hasDriversLiscense && hasGoodVision) {
+//   console.log("Sarah is able to drive!");
+// } else {
+//   console.log("Someone else should drive...");
+// }
+
+const isTired = false; // C
+
+console.log(hasDriversLiscense && hasGoodVision && isTired);
+
+if (hasDriversLiscense && hasGoodVision && !isTired) {
+  console.log("Sarah is able to drive!");
+} else {
+  console.log("Someone else should drive...");
+}

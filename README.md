@@ -88,3 +88,7 @@ This repo contains my study notes and learning projects contained in the course 
     - `console.log(23 !== '23'); // true (strict)`
     - `console.log(23 != '23'); // false (loose)`
   - use `===` as much as possible, since the other might introduce some weird bugs
+- Logical Operators
+  - `&&`
+  - `||`
+  - `!`
