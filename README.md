@@ -182,6 +182,7 @@ This repo contains my study notes and learning projects contained in the course 
     - don't have a `this` keyword
 
 - Arrays
+
   - Syntax
     - literal syntax  
       `const friends = ["Michael", "Steven", "Peter"]; // literal syntax`
@@ -192,3 +193,39 @@ This repo contains my study notes and learning projects contained in the course 
       - `console.log(friends.length); // length property`
       - `friends[2] = "Jay"; // array is mutatable`
       - `const edison = [firstName, "zhang", 2037 - 1999, friends]; // could contain expressions of different types`
+  - Array Operations
+
+    - add elements (return the length of new array)
+
+      - **push**
+
+        ```
+        const friends = ["Michael", "Steven", "Peter"];
+        const newLength = friends.push("Jay");
+        ```
+
+      - **unshift**
+
+        ```
+        friends.unshift("John");
+        ```
+
+    - remove elements (return the popped element)
+
+      - **pop**
+
+        ```
+        const popped = friends.pop();
+        ```
+
+      - **shift**
+        ```
+        friends.shift();
+        ```
+
+    - **indexOf** (strict equality check)
+      1. if exists => return the index(0-based)
+      2. otherwise => -1
+    - **includes** (strict equality check)
+      1. if exists => return true
+      2. otherwise => false
