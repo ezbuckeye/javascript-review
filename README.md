@@ -132,3 +132,23 @@ This repo contains my study notes and learning projects contained in the course 
     const interface = "Audio";
     const private = 534;
     ```
+
+- Functions
+
+  - (used as statements)
+    ```
+    function logger() {
+      console.log("My name is Jonas");
+    }
+    logger();
+    ```
+  - (used as expressions)
+
+    ```
+    function fruitProcessor(apples, oranges) {
+      const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+      return juice;
+    }
+
+    const appleJuice = fruitProcessor(5, 0);
+    ```
