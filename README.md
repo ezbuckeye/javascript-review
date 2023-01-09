@@ -101,15 +101,19 @@ This repo contains my study notes and learning projects contained in the course 
     case 'friday':
       console.log("study");
       console.log("work out");
+      break;
     case 'wednesday':
       console.log("study");
+      break;
     case 'saturday':
     case 'sunday':
       console.log("play basketball");
       console.log("swim");
       console.log("hangout");
+      break;
     default:
       console.log("not a valid day");
+      break;
   }
   ```
 - The Conditional(Ternary) Operator
@@ -234,13 +238,19 @@ This repo contains my study notes and learning projects contained in the course 
   - basic syntax
     ```
     const edison = {
-      firstName: "Edison",  // properties
+      firstName: "Edison", // properties
       lastName: "Zhang",
-      age: 2037 - 1999,
+      birthYear: 1999,
       job: "Architect",
       friends: ["Michael", "Peter", "Steven"],
+      hasDriversLicense: true,
+      calcAge: function () {
+        // method => property that holds a function value
+        return 2037 - this.birthYear;
+      },
     };
     ```
+    - **this** keyword
   - retrieve properties
     - dot  
       `console.log(edison.lastName);`
@@ -254,3 +264,4 @@ This repo contains my study notes and learning projects contained in the course 
     edison.location = "Columbus";
     edison["hometown"] = "Wenzhou";
     ```
+  - Object Operations

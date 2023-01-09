@@ -183,6 +183,9 @@ if (friends.includes("Steven")) {
 }
 */
 
+/*********
+Objects
+
 const jonasArray = [
   "Jonas",
   "Schmedtmann",
@@ -227,3 +230,38 @@ console.log(edison);
 console.log(
   `${edison.firstName} has ${edison.friends.length} friends, and his best friend is called ${edison.friends[0]}`
 );
+*/
+
+const edison = {
+  firstName: "Edison", // properties
+  lastName: "Zhang",
+  birthYear: 1999,
+  job: "Architect",
+  friends: ["Michael", "Peter", "Steven"],
+  hasDriversLicense: false,
+  // calcAge: function (birthYear) {
+  //   // method => property that holds a function value
+  //   return 2037 - birthYear;
+  // },
+  // calcAge: function () {
+  //   // method => property that holds a function value
+  //   // console.log(this);
+  //   return 2037 - this.birthYear;
+  // },
+  calcAge: function () {
+    this.age = 2037 - this.birthYear;
+    return this.age;
+  },
+  getSummary: function () {
+    return `${this.firstName} is a ${this.calcAge()}-year old ${
+      this.job
+    }, and he has ${this.hasDriversLicense ? "a" : "no"} driver's license.`;
+  },
+};
+
+console.log(edison.calcAge(1999));
+console.log(edison.age);
+console.log(edison.age);
+console.log(edison.age);
+console.log(edison.getSummary());
+// console.log(edison["calcAge"](1999));
