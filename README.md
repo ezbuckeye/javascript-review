@@ -59,15 +59,27 @@ This repo contains my study notes and learning projects contained in the course 
   }
   ```
 
-- for loop
+- loop
 
-  ```
-  for (let rep = 1; rep <= 10; rep++) {
-    console.log(`Lifting weights repetition ${rep} 🏋️‍♀️`);
-  }
-  ```
+  - for loop
 
-  - `continue` and `break`
+    ```
+    for (let rep = 1; rep <= 10; rep++) {
+      console.log(`Lifting weights repetition ${rep} 🏋️‍♀️`);
+    }
+    ```
+
+    - `continue` and `break`
+
+  - while loop
+
+    ```
+    let rep = 1;
+    while (rep <= 10) {
+      console.log(`Lifting weights reptition ${rep}🏋️‍♀️`);
+      rep++;
+    }
+    ```
 
 - Type Conversion and Coercion
   - type conversion

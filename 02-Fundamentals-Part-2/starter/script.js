@@ -278,6 +278,8 @@ for (let rep = 1; rep <= 10; rep++) {
 }
 */
 
+/*********
+break and continue
 const jonasArray = [
   "Jonas",
   "Schmedtmann",
@@ -314,4 +316,48 @@ console.log("----BREAK----");
 for (let i = 0; i < jonasArray.length; i++) {
   if (typeof jonasArray[i] === "number") break;
   console.log(jonasArray[i], typeof jonasArray[i]);
+}
+*/
+
+/*********
+more about while loop
+
+const jonasArray = [
+  "Jonas",
+  "Schmedtmann",
+  2037 - 1991,
+  "teacher",
+  ["Michael", "Peter", "Steven"],
+  true,
+];
+
+for (let i = jonasArray.length - 1; i >= 0; i--) {
+  console.log(i, jonasArray[i]);
+}
+
+for (let exercise = 1; exercise < 4; exercise++) {
+  console.log(`--------- Starting Exercise ${exercise}`);
+  for (let rep = 1; rep < 6; rep++) {
+    console.log(`Exercise ${exercise}: Lifting weight reptition ${rep}`);
+  }
+}
+*/
+
+let rep = 1;
+while (rep <= 10) {
+  console.log(`Lifting weights reptition ${rep}`);
+  rep++;
+}
+
+let dice = Math.trunc(Math.random() * 6) + 1;
+console.log(dice);
+
+// while (dice !== 6) {
+//   console.log(`you rolled a ${dice}`);
+//   dice = Math.trunc(Math.random() * 6) + 1;
+//   if (dice === 6) console.log("Loop is about to end...");
+// }
+
+for (; dice !== 6; dice = Math.trunc(Math.random() * 6) + 1) {
+  console.log(`you rolled a ${dice}`);
 }
