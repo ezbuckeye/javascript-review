@@ -59,6 +59,16 @@ This repo contains my study notes and learning projects contained in the course 
   }
   ```
 
+- for loop
+
+  ```
+  for (let rep = 1; rep <= 10; rep++) {
+    console.log(`Lifting weights repetition ${rep} 🏋️‍♀️`);
+  }
+  ```
+
+  - `continue` and `break`
+
 - Type Conversion and Coercion
   - type conversion
     - convert string to number  
@@ -197,7 +207,8 @@ This repo contains my study notes and learning projects contained in the course 
       - `console.log(friends.length); // length property`
       - `friends[2] = "Jay"; // array is mutatable`
       - `const edison = [firstName, "zhang", 2037 - 1999, friends]; // could contain expressions of different types`
-  - Array Operations
+  - Array Operations  
+    based on the fact that the length of array in js is dynamic
 
     - add elements (return the length of new array)
 
